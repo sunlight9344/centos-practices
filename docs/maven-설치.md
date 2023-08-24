@@ -18,5 +18,10 @@ ln -s /usr/local/poscodx2023/maven3.8 /usr/local/poscodx2023/maven
 
 4. 설정(/etc/profile)
 ```sh
-export PATH=$PATH:/usr/local/douzone2021/maven/bin
- ```
+export PATH=$PATH:/usr/local/poscodx2023/maven/bin
+```
+
+5. 확인
+```sh
+mvn --version
+```
