@@ -67,7 +67,7 @@ git --version
 ```sh
 mkdir my-workspace
 cd my-workspace
-git clone https://github.com/douzone-busan-bitacademy/javastudy.git
+git clone https://github.com/poscodx-bitacademy/java-study.git
 cd java-study
 mvn clean package
 ```
