@@ -12,7 +12,7 @@
 
 3. 다운로드
 ```sh
-   wget https://mirrors.edge.kernel.org/pub/software/scm/git/git-2.9.5.tar.gz
+   wget --no-check-certificate https://mirrors.edge.kernel.org/pub/software/scm/git/git-2.9.5.tar.gz
 ```
 
 5. 압축 풀기
