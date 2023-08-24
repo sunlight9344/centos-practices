@@ -28,7 +28,7 @@
 
 5. configure compile & build Environment
 ```sh
-   ./configure --prefix=/usr/local/douzone2021/git
+   ./configure --prefix=/usr/local/poscodx2023/git
 ```
 
 6. 빌드
