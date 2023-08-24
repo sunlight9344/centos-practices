@@ -2,12 +2,12 @@
 
 1. 의존성 라이브러리
 ```sh
-   # yum install curl-devel
-   # yum install expat-devel
-   # yum install gettext-devel
-   # yum install openssl-devel
-   # yum install zlib-devel
-   # yum install perl-devel
+   # yum -y install curl-devel
+   # yum -y install expat-devel
+   # yum -y install gettext-devel
+   # yum -y install openssl-devel
+   # yum -y install zlib-devel
+   # yum -y install perl-devel
 ```
 
 3. 다운로드
