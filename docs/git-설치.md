@@ -55,7 +55,7 @@ git --version
 9. 설정(/etc/profile)
 ```sh
 git
-PATH=$PATH:/usr/local/poscodx2023/git/bin
+export PATH=$PATH:/usr/local/poscodx2023/git/bin
 ```
 
 10. 확인하기
