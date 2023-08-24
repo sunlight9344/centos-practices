@@ -38,21 +38,32 @@ make all
    
 7. 설치
 ```sh
-make install install-doc install-html install-info
+make install
 ```
 
-8. 설정(/etc/profile)
+8. old version 처리
+```sh
+whereis git
+git: /usr/bin/git /usr/share/man/man1/git.1.gz
+
+mv /usr/bin/git /usr/bin/git.old
+ln -s /usr/local/poscodx2023/git/bin/git /usr/bin/git
+
+git --version
+```
+
+9. 설정(/etc/profile)
 ```sh
 git
-PATH=$PATH:/usr/local/douzone2021/git/bin
+PATH=$PATH:/usr/local/poscodx2023/git/bin
 ```
 
-9. 확인하기
+10. 확인하기
 ```sh
 git --version
 ```
 
-10. git 사용하기
+11. git 사용하기
 ```sh
 mkdir my-workspace
 cd my-workspace
@@ -60,29 +71,3 @@ git clone https://github.com/douzone-busan-bitacademy/javastudy.git
 cd java-study
 mvn clean package
 ```
-================
-```sh
-git add -A
-git commit -m "...."
-git push
-```
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
