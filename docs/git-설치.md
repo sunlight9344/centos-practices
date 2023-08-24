@@ -39,6 +39,7 @@
 7. 설치
 ```sh
    make install install-doc install-html install-info
+```
 
 8. 설정(/etc/profile)
 ```sh
